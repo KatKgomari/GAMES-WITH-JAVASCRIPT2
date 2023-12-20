@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="rockpaperscissors.css">
+    <link rel="icon" href="rockpaperscissors-PhotoRoom.png-PhotoRoom.png">
+</head>
+<body>
+    <span class="title">
+        <h1>Rock Paper Scissors</h1>
+    </span>
+    <span class="scoreboard">
+        <h2>Your score: <span id="user-score"></span></h2>
+        <h2>Computer Score: <span id="computer-score"></span></h2>
+    </span>
+    
+    <div class="main-div" id="main-div">
+        
+        <div class="choices" id="choices">
+        <!-- We have a span to braek up that h2 tag -->
+            <h2>Computer Choice: <span id="computer-choice"></span></h2>  <!--the id is there so that we can pick it out when we are working withj it in javascript-->
+            <h2>Your choice: <span id="user-choice"></span></h2>
+            <h2>Result: <span id="result"></span></h2>
+        </div>
+        <div class="options" id="options">
+            <!-- When we click on a certain option, it will be written in the span above. At same time, a computer choice will be generated and then we can figuere out who has won or lost-->
+            <button id="Rock"></button>
+            <button id="Paper"></button>
+            <button id="Scissors"></button>
+        </div>
+        
+    </div>
+    
+    <script src="rps.js"></script> <!--Should be inside the body otherwise things won't work-->
+</body>
+</html>

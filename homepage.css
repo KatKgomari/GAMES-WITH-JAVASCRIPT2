@@ -1,0 +1,76 @@
+
+a{
+    margin: 0.7%;
+    
+}
+.rock-paper-scissors{
+    background-color: #D00000;
+}
+
+body{
+    background-color:antiquewhite;
+}
+
+.row img{
+    float:left;
+    /* float:inline-start; */
+    width: 8vw;
+    height: 14vh;
+}
+.memory-game{
+    background-color: #FFBA08;
+}
+
+.whac-a-mole
+{
+    background-color: #3F88C5;
+}
+
+.breakout{
+    background-color: #032B43;
+}
+
+.frogger{
+    background-color: #136F63;
+}
+
+.connect-four{
+    background-color: #032B43;
+}
+
+.space-invaders{
+    background-color: #3F88C5;
+}
+
+.game-8{
+    background-color: #FFBA08;
+}
+
+.game-9{
+    background-color: #D00000;
+}
+
+.row{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.tile{
+    padding: 10vh 3vw 12vh 3vw;
+    /* margin: 0.7%; */
+    width: 24vw;
+    height: 7vh;
+    border-radius: 1em;
+    font-family:cursive;
+    font-size: 1.5vw;
+
+    color: white;
+    overflow: hidden;
+    border: dashed;
+}
+
+.tile h3{
+    float:right;
+}

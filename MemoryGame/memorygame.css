@@ -1,0 +1,47 @@
+
+*{
+    font-family: cursive;
+}
+
+#grid {
+    width: 55vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap; /*flex wrap makes things go to the next line when they can't go onto the current line*/
+    background-color:burlywood;
+    border-style: dashed;
+    border-radius: 1em;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.scoreboard{
+    padding: 1% 1%;
+    margin: 1% 30%;
+    background-color: #032B43;
+    width: 40vw;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-style: dashed;
+    border-color: white;
+    color: antiquewhite;
+    
+}
+
+img{
+    background-color:darkgreen ;
+    border-color: #032B43;
+    border-radius: 1em;
+    margin: 1vh 1vh;
+    width: 20%; 
+    height: 15%;
+}
+
+
+.title{
+    text-align: center;
+    color:#032B43;
+}
+

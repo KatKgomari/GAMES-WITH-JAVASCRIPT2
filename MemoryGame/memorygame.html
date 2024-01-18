@@ -5,12 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memory Game</title>
     <link rel="stylesheet" href="memorygame.css">
-    <link rel="icon" href="memory-games-children-1-1-PhotoRoom.png-PhotoRoom.png">
+    <link rel="icon" href="../GameTiles/memory-games-children-1-1-PhotoRoom.png-PhotoRoom.png">
+    
 </head>
 <body>
+    <span class="title">
+        <h1>Memory Game</h1>
+    </span>
+
     <!-- We use ids when we wangt to pick things oiut with our javascript -->
-    <h3>Score: <span id="result"></span></h3> <!--the span breaks up the two tags. Giving it an id so we can pick it out later with our javascript-->
-    <div id="grid" ></div>
+    <div class="scoreboard">
+        <h3>Score: <span id="result"></span></h3> <!--the span breaks up the two tags. Giving it an id so we can pick it out later with our javascript-->
+    </div>
+    
+    <center>
+        <div id="grid" ></div>
+    </center>
+    
     <script src="memorygame.js"></script> <!--after all the elements hasve been read, the we want to go to our script tag and read whatever is in this file -->
 </body>
 </html>
